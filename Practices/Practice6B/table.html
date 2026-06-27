@@ -17,25 +17,55 @@
             }
 table{ border: 1px solid black;
       padding: 5px;
+      border-spacing: 4px;
       }
 td, th { 
     border: 1px solid black;
+    padding-top: 4px;
+    padding-bottom: 4px;
     }
+.colordarkgreen{ color: #003300;
+   font-weight: bold;
+   }
+.firstcolumn{ background-color: #CCCCCC;
+            width: 25%;
+            }
+.days{ background-color: #99FF66;}
 </style>
 </head>
 <body>
 <div class="centeralign">
    <table class="tableformat">
-      <caption>My Class Schedule</caption>
+      <caption class="colordarkgreen">My Class Schedule</caption>
+         <colgroup>
+            <col class="firstcolumn">
+            <col class="days" span="5">
+         </colgroup>
       <tr>
          <th>Courses</th>
-         <th>Monday</th>
+         <th>Monday</th>      
          <th>Tuesday</th>
          <th>Wednesday</th>
          <th>Thursday</th>
          <th>Friday</th>
       </tr>
-      
+
+      <tr>
+         <th>INFO 1120</th>
+         <td> </td>
+         <td>9-11</td>
+         <td> </td>
+         <td>9-11</td>
+         <td rowspan="2"></td>
+      </tr>
+      <tr>
+         <th>MATH 1010</th>
+         <td colspan="4">12-1</td>
+      </tr>
+      <tr>
+         <th>INFO 2420</th>
+         <td colspan="5">Online Available 24/7</td>
+      </tr>
 
 
    </table>
