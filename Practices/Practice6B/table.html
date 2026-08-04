@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-
-<head lang="en">
+<head>
 
 <meta charset="UTF-8">
 	
 <title>HTML Practice 6 - Tables</title>
 
-<style type="text/css">
+<style>
 .centeralign{ text-align: center;
             }
 .tableformat{ margin: auto;
@@ -39,15 +38,15 @@ td, th {
       <caption class="colordarkgreen">My Class Schedule</caption>
          <colgroup>
             <col class="firstcolumn">
-            <col class="days" span="5">
+            <col span="5">
          </colgroup>
       <tr>
          <th>Courses</th>
-         <th>Monday</th>      
-         <th>Tuesday</th>
-         <th>Wednesday</th>
-         <th>Thursday</th>
-         <th>Friday</th>
+         <th class="days">Monday</th>      
+         <th class="days">Tuesday</th>
+         <th class="days">Wednesday</th>
+         <th class="days">Thursday</th>
+         <th class="days">Friday</th>
       </tr>
 
       <tr>
@@ -66,7 +65,6 @@ td, th {
          <th>INFO 2420</th>
          <td colspan="5">Online Available 24/7</td>
       </tr>
-
 
    </table>
 </div>
