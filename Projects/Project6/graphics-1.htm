@@ -2,16 +2,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Rent a Pet - Graphics</title>
+<title>Native Cooking of Utah - Graphics</title>
 
 <style type="text/css">
 
 
 	#thumbs, #image {
-		width: 900px;
+		width: 700x;
+		border: solid 1px #000;
 		text-align: center;
 		margin: 0 auto 0 auto;
 		color: #000;
+		background: #eee;
+		padding: 5px;
 	}
 
 	#thumbs {
@@ -25,7 +28,7 @@
 	}
 
 	#image{
-		height:500px;
+		height:400px;
 	}
 
 	.instructions{
@@ -41,10 +44,10 @@
 	logo1 = new Image
 	logo2 = new Image
 if (document.images) {
-	PrintButton1.src = "images/print5.gif"
-	PrintButton2.src = "images/print6.gif"
-	logo1.src = "images/logo1.jpg"
-	logo2.src = "images/logo2.jpg"
+	PrintButton1.src = "images/Print1.jpg"
+	PrintButton2.src = "images/Print2.jpg"
+	logo1.src = "images/Logo1.gif"
+	logo2.src = "images/Logo2.jpg"
 }
 
 
@@ -100,24 +103,20 @@ if (document.images) {
 
 <div align="center">
 
+
 <div>
-	<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
-	onMouseOut="document.PrintButton.src=PrintButton1.src;">
-
-	<img src="images/print5.gif" width="250" height="50" 
-	name="PrintButton" alt="PrintButton" style="border:none;"/>
-
-	</a>
+	<a href="" onmouseover="document.getElementById('print').src='images/Print2.jpg';"
+	onmouseout="document.getElementById('print').src='images/Print1.jpg';">
+	<img src="images/Print1.jpg" alt="Print Page" width="200" height="50"
+	id="print"></a>
 </div>
 
-
-<div id="logo">
-	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
-	onMouseOut="document.logo.src=logo1.src;">
-
-	<img src="images/logo1.jpg" width="133" height="126" 
-	name="logo" alt="logo" style="border:none;"/>
-
+<div>
+	<a href="logo.html"
+	   onMouseOver="document.getElementById('logoImage').src = logo2.src;"
+	   onMouseOut="document.getElementById('logoImage').src = logo1.src;">
+		<img id="logoImage" src="images/Logo1.gif" width="133" height="126"
+		     alt="Logo" style="border:none;"/>
 	</a>
 </div>
 
