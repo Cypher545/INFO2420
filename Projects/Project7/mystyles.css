@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+header { width: 900px;
+	margin: 0 auto;
+}
+
+nav { width: 900px;
+	margin: 0 auto;
+}
+body{ font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #FFF6E8;
+    color: #00231D;
+    }
+h1{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    }
+h2{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    }
+h3{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    }
+p{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    }
+blockquote{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    }
+ul{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    }
+a:link{ color: #A40003;}
+a:hover{ color: #370001;}
+a:visited{ color: #830002;}
+caption{ font-family: Arial, Helvetica, sans-serif;
+    color: #00231D;
+    text-align: center;
+        }
+.floatleft{ float: left;
+            padding-right: 20px;
+            padding-bottom: 10px;
+          }
+.floatright{ float: right;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            }
+table{ width: 100%;
+       color: #00231D;
+       padding: 5px;
+       border-spacing: 4px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: large;
+       border-radius: 8px;
+       border: 2px solid #00231D
+      }
+th{ background-color: #fbe7c7;
+    text-align: center;
+    color: #001310d5;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 2px solid #00231D;
+    }
+td{ 
+    background-color: #ecd9b8;
+    border: 2px solid #00231D;
+    text-align: center;
+    color: #001310d5;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    }
