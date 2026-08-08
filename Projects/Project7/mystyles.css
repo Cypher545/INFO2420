@@ -1,20 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 
-header { width: 900px;
-	margin: 0 auto;
+header {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #E4D6C1;
+	overflow:visible;
+	height: 350px;
 }
 
-nav { width: 900px;
-	margin: 0 auto;
+nav { 
+	float: right;
+	overflow: auto;
+	font-size: medium;
 }
 body{ font-family: Arial, Helvetica, sans-serif;
+	height: auto;
     font-size: medium;
     background-color: #FFF6E8;
     color: #00231D;
     }
 h1{ font-family: Arial, Helvetica, sans-serif;
     color: #00231D;
+	text-align: center;
+	font-size: xx large;
     }
 h2{ font-family: Arial, Helvetica, sans-serif;
     color: #00231D;
@@ -70,3 +80,85 @@ td{
     padding-top: 4px;
     padding-bottom: 4px;
     }
+
+section {
+    width: 900px;
+    background-image: url("Images/2colback.jpg");
+    background-repeat: repeat-y;
+    margin: 0 auto;
+	overflow: auto;
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+    height: auto;
+    overflow: auto;
+}
+
+footer { text-align: center;
+	width: 900px;
+	height: auto;
+	background-color: #E4D6C1;
+	margin: 0 auto;
+}
+
+.logoleft { 
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+nav a {
+	border: 6px inset #00231D;
+	background-color: #E4D6C1;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: #00231D;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Ariel, Helvetica;
+}
+
+nav a:hover {
+	color: #000F0D;
+	border: 2px outset #00231D;
+}
+
+#thumbs, #image {
+		width: 500px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		padding: 5px;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		margin: 5px;
+	}
+
+	#image{
+		height:400px;
+	}
+
+.text-center {
+	text-align: center;
+}
+.auto-style1 {
+	float: left;
+	height: 150px;
+	padding: 0px 15px 10px 80px;
+	margin-left: 29px;
+}
+
+#minitribute { margin-top: 50px;
+	text-align: center;
+	overflow: auto;
+}

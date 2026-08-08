@@ -1,29 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Home: Native Cooking of Utah</title>
 <link href="mystyles.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="myscripts.js"></script>
+<script src="myscripts.js"></script>
 </head>
 <body onload="preloadImages()">
 
 	<header>
+		<a href="index.htm"
+	   onMouseOver="document.getElementById('logoImage').src = logo2.src;"
+	   onMouseOut="document.getElementById('logoImage').src = logo1.src;">
+			
+		<img src="images/Logo1.gif"
+		     alt="Logo" width="175" height="175" id="logoImage" class="logoleft">
+	</a>
+		<img src="Images/Banner.png" width="600" height="175" alt="Native Cooking of Utah Banner">
 		
 		<nav>
+				<a href="Home.htm">Home Page</a>
+				<a href="aboutus.htm">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>
+				<a href="tributes.htm">&nbsp;&nbsp;&nbsp;Tributes&nbsp;&nbsp;&nbsp;</a>
+				<a href="favorites.htm">&nbsp;&nbsp;Favorites&nbsp;&nbsp;</a>
+				<a href="survey.htm">&nbsp;&nbsp;&nbsp;&nbsp;Survey&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			
 		</nav>
-		
 	</header>
- 
 	<section>
-		
-		<article>
-		</article>
-		
+	  <article>
+	    <h1>Welcome to Native Cooking of Utah!</h1>
+	    <p>If you love to cook like we do, you should enjoy looking around this site.  
+	      Take a look at our Recipes and take the opportunity to complete our survey. </p>
+	    <div id="thumbs"> <img src="images/thumbnail/image1sm.jpg" alt="Master Chef Pierre DeBois" onMouseOver="swapImage(0);" > <img src="images/thumbnail/image2sm.jpg" alt="Meat on a grill" onMouseOver="swapImage(1);" > <img src="images/thumbnail/image3sm.jpg" alt="A glass of wine" onMouseOver="swapImage(2);" > <img src="images/thumbnail/image4sm.jpg" alt="Table of food" onMouseOver="swapImage(3);" > </div>
+	    <div id="image"> <img id="theImage" src="images/fullsize/image1lg.jpg" alt="Master Chef Pierre DeBois" >
+	      <h2 id="bottomText">Master Chef Pierre DeBois</h2>
+        </div>
+		  <br>
+		 <div id="minitribute"> 
+				  <h2>Nothing like Good Old-Fashioned Cooking</h2>
+<img src="Images/DutchOvenSm.jpg" alt="Dutch oven"
+    class="auto-style1" width="250" height="150">
+<p>Real men are not afraid to try Dutch oven cooking.  I made an investment in equipment, but it sat in my garage until I found your wonderful recipes online. . 
+	<a href="tributes.htm">more. . .</a></p>
+	</div>		
+    </article>
 	</section>
 	
 <footer>
+	<p>Contact Us By Email: <a href="mailto:11073864@uvu.edu">Ian Julander</a></p>
+	<p>This website was created soley for educational purposes.</p>
 </footer>
-	
+
 </body>
 </html>
